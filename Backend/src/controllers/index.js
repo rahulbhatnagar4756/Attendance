@@ -1,0 +1,15 @@
+module.exports.authController = require('./auth.controller');
+module.exports.userController = require('./user.controller');
+module.exports.attendenceController = require('./attendence.controller');
+module.exports.importantDatesController = require('./important.dates.controller');
+module.exports.requestController = require('./request.changes.controller');
+module.exports.rolesController = require('./roles.controller');
+module.exports.leavesController = require('./leaves.controller');
+module.exports.wfhController = require('./wfh.controller');
+module.exports.thoughtController = require('./thought.controller');
+module.exports.teamManagementController = require('./team.management.controller');
+module.exports.adminController = require('./admin.controller');
+module.exports.candidateController = require("./candidate.controller");
+module.exports.projectController = require("./project.controller");
+module.exports.documentsController = require("./documents.controller");
+module.exports.formsController = require("./forms.controller");
