@@ -1,0 +1,86 @@
+{
+  "name": "attendence",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.2.1",
+    "@ckeditor/ckeditor5-editor-inline": "^35.3.1",
+    "@ckeditor/ckeditor5-react": "^5.0.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@fullcalendar/daygrid": "^5.8.0",
+    "@fullcalendar/interaction": "^5.8.0",
+    "@fullcalendar/react": "^5.8.0",
+    "@fullcalendar/timegrid": "^5.8.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.2",
+    "bootstrap-daterangepicker": "^3.1.0",
+    "file-saver": "^2.0.5",
+    "filesize": "^10.0.6",
+    "font-awesome": "^4.7.0",
+    "history": "^5.0.0",
+    "html-entities": "^2.3.3",
+    "jquery": "^3.6.0",
+    "loadash": "^1.0.0",
+    "moment": "^2.29.4",
+    "rctx-contextmenu": "^1.3.7",
+    "react": "^17.0.2",
+    "react-animated-tree-v2": "^1.0.5",
+    "react-aws-s3": "^1.5.0",
+    "react-bootstrap": "^1.6.1",
+    "react-bootstrap-daterangepicker": "^7.0.0",
+    "react-bootstrap-icons": "^1.5.0",
+    "react-dom": "^17.0.2",
+    "react-drag-drop-files": "^2.3.9",
+    "react-easy-crop": "^5.4.1",
+    "react-file-icon": "^1.3.0",
+    "react-file-previewer": "^0.6.3",
+    "react-file-viewer": "^1.2.1",
+    "react-form-builder2": "^0.14.2",
+    "react-formio": "^4.3.0",
+    "react-icons": "^4.4.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-paginate": "^8.1.3",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^4.0.3",
+    "react-select": "^4.3.1",
+    "react-toastify": "^9.0.1",
+    "redux": "^4.1.0",
+    "redux-saga": "^1.1.3",
+    "socket.io-client": "^4.5.3",
+    "start": "^5.1.0",
+    "tsparticles": "^1.35.2",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

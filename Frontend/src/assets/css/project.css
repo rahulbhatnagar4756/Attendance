@@ -1,0 +1,414 @@
+/** Custom cSs **/
+
+.project-heading-info {
+    white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+}
+
+.project-description-info {
+    min-height: 120px;
+    max-height: 120px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.project-userimg-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cus-row-wrap>div {
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 32%);
+}
+
+/** Projects update cSs **/
+
+.project-updates-content-info,
+.content-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.discussions-list-content-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.projects-update-wrapper a {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.head-title-info {
+    text-transform: capitalize;
+}
+
+.description-info {
+    font-size: 14px;
+    color: #a9a5a5;
+}
+
+.col-red {
+    color: #ad4242;
+}
+
+.date-info {
+    font-size: 14px;
+}
+
+.project-updates-content-info,
+.discussions-list-content-info {
+    font-size: 14px;
+}
+
+.post-new-message-wrap .btn {
+    font-size: 12px;
+}
+
+.discussions-list-content-info .follow-up-wrap {
+    flex-basis: 70%;
+    max-width: 70%;
+    padding: .25em 1em .25em 0;
+}
+
+.discussions-list-content-info .user-name-wrap {
+    flex-basis: 15%;
+    padding: .25em 1em .25em 0;
+}
+
+.discussions-list-content-info .date-wrap {
+    flex-basis: 15%;
+    max-width: 15%;
+    padding: .25em 0;
+}
+
+.img-wrap img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* margin-right: 5px;
+    margin-bottom: 5px; */
+}
+
+.text_box_outline:focus {
+    border: none !important;
+    box-shadow: none !important;
+
+}
+
+.discussions-list-wrap {
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.discussions-list-wrap:hover {
+    background: #f7fafb;
+    box-shadow: 0 0 10px #39547c;
+}
+
+.pu-message-wrap p:first-child {
+    white-space: nowrap;
+    max-width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+.pu-message-wrap li,
+.pu-message-wrap ol {
+    max-width: 95%;
+    list-style: auto;
+
+}
+
+.pu-message-wrap {
+    max-height: 41px;
+    overflow: hidden;
+}
+
+/** Projects update end cSs **/
+
+.full-selectbox .css-dk1a1c-container {
+    width: 100%;
+}
+
+/*** Media screen ***/
+
+
+/* For Project Update  weekly and date filter button start*/
+.project_updates_info #pills-profile-tab {
+    max-height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+#pills-tab li {
+    margin: 8px 0;
+}
+
+#pills-profile-tab {
+    border: 1px solid #1d4354;
+    margin-right: 10px;
+    color: #1d4354;
+}
+
+#pills-profile-tab.active {
+    background: #1d4354;
+    color: #fff;
+}
+
+.calender_view {
+    background: #edf6ff !important;
+    color: #444 !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.calender_view:focus,
+.calender_view:hover {
+    background: #edf6ff;
+    color: #444;
+    border: none;
+    box-shadow: none;
+}
+
+.active_btn {
+    background: #78b1e1 !important;
+    color: #fff !important;
+}
+
+/* For Project Update  weekly and date filter button end*/
+
+
+.project_discussions_list {
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.repots_tab .btn-default.active {
+    background: #1d4354;
+    color: white;
+}
+
+.repots_tab .tab_btn {
+    border: 1px solid #1d4354;
+    margin-right: 10px;
+    color: #1d4354;
+}
+
+@media screen and (max-width: 600px) {
+    .user-name-wrap.pe-1 {
+        width: 50%;
+    }
+}
+
+/* .customModal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #0000007a;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0
+}
+.customModal .modal-lg {
+    margin: 1.75rem auto;
+    background: #fff;
+    border-radius: 4px;
+    padding: 15px;
+    max-width: 800px;
+    width:100%;
+} */
+
+body {
+    --ck-z-default: 100;
+    --ck-z-modal: calc(var(--ck-z-default) + 999);
+}
+
+.ck-body-wrapper {
+    z-index: 99999 !important;
+}
+
+.form-select-view {
+    width: 489px;
+    height: 38px;
+    border-color: hsl(0, 0%, 80%);
+    padding-right: 0 !important;
+}
+
+
+.head-title-wrap-bizdev {
+    width: 45%;
+    display: inline-block;
+    padding-right: 0;
+}
+
+.discussions-list-main-project {
+    max-height: 243px;
+    overflow: auto;
+}
+
+.message-dropdown input[type="text"] {
+    width: 20px;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 9px;
+    line-height: 40px;
+}
+
+.message-dropdown div:hover {
+    background-color: transparent;
+}
+
+.message-dropdown .message-inner-drop.user-exists {
+    border: 1px solid #ddd !important;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.message-dropdown .message-inner-drop.user-exists .message-option:hover {
+    /* background-color: #deebff !important; */
+    background-color: #e0e0e0 !important;
+}
+
+.message-dropdown .message-inner-drop {
+    border: none !important;
+}
+
+.message-dropdown input[type="text"]:focus {
+    border: 2px solid #2684FF;
+}
+
+.main_content_panel.main_content_panel2 {
+    background-color: #fff;
+    /* margin: 20px; */
+    padding: 22px;
+    box-shadow: 0 0 13px #e2e2e2;
+    border-radius: 10px;
+}
+
+.main_content_panel.main_content_panel2 .dashboard_card {
+    padding: 0;
+    box-shadow: none;
+}
+
+.main_content_panel.main_content_panel2 .previous-chat {
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.main_content_panel.main_content_panel2.main_content_panel3 {
+    width: calc(100% - 240px);
+    margin-left: 20px;
+}
+
+.main_content_panel.main_content_panel2.main_content_panel3 .previous-chat {
+    height: 400px;
+
+}
+/* .text-editor .ck.ck-content.ck-editor__editable {
+    height: 230px;
+} */
+/* .main_content_panel.main_content_panel2.main_content_panel3 .previous-chat.subject-chat {
+    height: 845px;
+} */
+.text-editor .ck.ck-content.ck-editor__editable {
+    /* height: 395px; */
+    height: 325px;
+}
+.main_content_panel.main_content_panel2.main_content_panel3 .previous-chat.subject-chat {
+    height: 585px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #919191; 
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #919191; 
+  }
+  .main_content_panel.main_content_panel2.main_content_panel3.subject-maincontent {
+    margin: 20px;
+    overflow: hidden;
+}
+.main_content_panel.main_content_panel2.main_content_panel3.project-updated-cont{
+    margin: 20px;
+    overflow: hidden;
+}
+.main_content_panel.main_content_panel2.main_content_panel3.project-updated-cont .previous-chat {
+    height: 680px;
+}
+.project-updates-content-info .date-info{
+    min-width: 90px;
+}
+.thread-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.thread-name button {
+    padding: 0;
+    min-width: 30px;
+    min-height: 30px;
+}
+@media only screen and (max-width: 992px) {
+    .main_content_panel.main_content_panel2.main_content_panel3 {
+        width: 100%;
+    }
+
+    .main_content_panel.main_content_panel2.main_content_panel3 .previous-chat {
+        height: initial;
+    }
+    .main_content_panel.main_content_panel2.main_content_panel3.project-updated-cont .previous-chat {
+        height: initial;
+    }
+
+    .main_content_panel.main_content_panel2.main_content_panel3 {
+        width: 96%;
+        margin: auto;
+        margin-left: auto;
+    }
+
+    .main_follow_info h6 {
+        font-size: 14px;
+    }
+
+    .main_follow_info .chat-btn {
+        margin-top: 32px;
+    }
+}

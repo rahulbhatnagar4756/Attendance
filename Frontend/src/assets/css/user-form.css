@@ -1,0 +1,194 @@
+.field-required:after, .tab-error::after {
+  content: " *";
+  color: #EB0000;
+}
+.invalid-feedback {
+  display: block !important;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #dc3545;
+}
+.formio-errors .error {
+  color: #dc3545;
+}
+.alert-danger {
+  display: none;
+}
+/* .null, .has-error{
+  display: none;
+}
+.mx-auto{
+  margin-bottom: 15px;
+}
+.col-form-label{
+  font-weight: 550;
+} */
+.feedback-form-wapper {
+  width: 100%;
+  max-width: 700px;
+  margin: 15px auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 40px;
+  position: relative;
+  box-shadow: 0 0 13px #d4eafd;
+}
+.feedback-form-wapper h2 {
+  text-align: center;
+  color: #79b2e0;
+  font-weight: 600;
+}
+.feedback-form-wapper .w-50 {
+  width: 100% !important;
+}
+.feedback-form-wapper .formio-component-submit {
+  text-align: center;
+  margin-top: 10px;
+  /* margin-right: -224px; */
+}
+.feedback-form-wapper .back_btn {
+  position: absolute;
+  bottom: 20px;
+  left: 19.5%;
+}
+.feedback-form-wapper .back_btn .btn,.feedback-form-wapper .formio-component-submit .btn{
+   width: 200px;
+}
+.feedback-form-wapper .formio-component-submit .btn[disabled] {
+  background: #91b5eb;
+  border-color: #91b5eb;
+}
+.feedback-form-wapper .input-group-text {
+  min-height: 38px;
+}
+.forms_card {
+  background: #fff;
+  border: none;
+  font-weight: 700;
+  box-shadow: 0 0 13px #e2e2e2;
+}
+.forms_card a{
+  color: #fab325 !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+.forms_card h4 {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.feedback-main-wrapper {
+  width: 100%;
+  background: rgb(255,255,255);
+  background: linear-gradient(26deg, rgba(255,255,255,1) 53%, rgba(245,249,253,1) 0%);
+  background-attachment: fixed;
+}
+
+.feedback-leftside {
+  position: sticky;
+  top: 0;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.feedback-leftside h2 {
+  color: #7ab3e1;
+}
+.feedback-leftside2 h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #7ab3e1;
+  margin-top: 30px;
+}
+.sub-quiz-listing li {
+  font-weight: 500;
+}
+.sub-quiz-listing {
+  margin-bottom: 5px;
+}
+.feedback-form-wapper .formio-component-name, .feedback-form-wapper .formio-component-employeeId{
+  width: 50% !important;
+  float: left;
+} 
+
+/* .feedback-form-wapper .formio-component-name, .feedback-form-wapper .formio-component-employeeId,.feedback-form-wapper .formio-component-designation,.feedback-form-wapper .formio-component-reportingManager,.feedback-form-wapper .formio-component-dateOfJoining,.feedback-form-wapper .formio-component-dateOfRelieving,.feedback-form-wapper .formio-component-department{
+  width: 50% !important;
+  float: left;
+}  */
+.feedback-form-wapper .form-group{
+  padding: 5px;
+}
+.feedback-form-wapper .field-required:after{
+  position: absolute;
+  padding-left: 2px;
+}
+
+.thankyou-form {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.thankyou-form h2{
+   font-size: 36px;
+}
+.thankyou-form p{
+ color:gray;
+}
+
+.details-output-form {
+  width: 100%;
+  max-width: 900px;
+  margin: 15px auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 40px;
+  position: relative;
+  box-shadow: 0 0 13px #d4eafd;
+}
+.details-output-form > tr {
+  border-bottom: 1px solid #ccc;
+}
+.tableform-heading{
+  max-width: 900px;
+  margin: auto;
+}
+.details-output-form  tr:nth-child(even) {
+  background-color: transparent;
+}
+.details-output-form td{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.details-output-form .quiz {
+  padding-top: 8px;
+}
+.details-output-form .answer {
+  font-weight: 600;
+}
+.details-output-form tr:last-child table {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width:767px){
+  .feedback-form-wapper {
+    padding: 15px 20px;
+  }
+  .feedback-form-wapper .formio-component-submit {
+    padding-right: 0;
+}
+.feedback-form-wapper .back_btn {
+  position: relative;
+  bottom: auto;
+  right: auto;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+.feedback-form-wapper .back_btn .btn, .feedback-form-wapper .formio-component-submit .btn {
+  width: 200px;
+}
+}
