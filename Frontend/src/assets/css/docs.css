@@ -1,0 +1,404 @@
+.grid-box {
+    height: calc(100vh - 8rem);
+    overflow: auto;
+  }
+  .drop_area {
+    height: 60px !important;
+    width: 77%;
+  }
+  
+  .treeview {
+    padding: 4px 5px 0px !important;
+  }
+  
+  span:has(> div.menu-trigger) {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .file-node-item {
+    display: flex;
+    height: 20px;
+    margin: 4px 0px 8px;
+  }
+  .file-node-item svg {
+    width: 15px;
+    margin-right: 10px;
+  }
+  
+  div:has(> div.file-node-item) {
+    padding: 8px 0px 8px 8px;
+  }
+  
+  .text-center{
+    text-align: center;
+  }
+  
+  .main-section {
+    /* height: calc(100vh - 8rem); */
+    overflow: hidden;
+    background-color: white;
+  }
+  .main-section {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  .main-section > aside {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+  .main-section > main {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+  }
+  .main-section > aside,
+  .main-section > main {
+    padding: 10px;
+    overflow: auto;
+  }
+  .resize-handle--x {
+    opacity: 0.5;
+    flex: 0 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    width: 3px;
+    height: calc(100vh - 9.5rem);
+    margin-top: 12px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: black;
+    cursor: ew-resize;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  .resize-handle--x:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 100%;
+    height: 18px;
+    width: 2px;
+    margin-top: -9px;
+    border-left-color: black;
+    border-left-width: 1px;
+    border-left-style: solid;
+  }
+  .resize-handle--x:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 100%;
+    height: 18px;
+    width: 2px;
+    margin-top: -9px;
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+  }
+  
+  .main-section .grid-box{
+    height: calc(100vh - 5.6rem);
+    overflow: auto;
+  }
+  aside.sidebar{
+    max-width: 350px;
+    width: 210px;
+    min-width: 210px;
+    padding-right: 0;
+  }
+  main.app-content {
+    overflow: hidden;
+  }
+  
+  .pdf-file-icon svg {
+    max-width: 20px !important;
+    margin-right: 10px;
+  }
+  .file-type-icons .fa-folder {
+    font-size: 20px;
+    color: #5f6368;
+  }
+  .file-type-icons,.pdf-file-icon{
+    width: 24px;
+    display: inline-block;
+  }
+  .pdf-file-icon{
+    margin-right: 10px;
+  }
+  .row-highlight:hover {
+    background-color: #ecece4;
+  }
+  
+  .selected{
+    background-color: #8dd6db;
+  }
+  .modal-width {
+    width: 500px !important;
+  }
+  
+  #style-3::-webkit-scrollbar-track
+  {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+  }
+  
+  #style-3::-webkit-scrollbar
+  {
+      width: 2px;
+      background-color: #F5F5F5;
+  }
+  
+  #style-3::-webkit-scrollbar-thumb
+  {
+      background-color: #000000;
+  }
+  
+  .modal-width {
+    width: 600px !important;
+  }
+  
+  
+  .grid-table-heading {
+    position: sticky;
+    /* top: 0; */
+    top:58px;
+    background: #fff;
+    padding: 5px 10px;
+  }
+  .grid-table-body {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 18px;
+  }
+  .grid-table-body .row-highlight{
+    margin: 0;
+  }
+  
+  .menu-trigger > .selected-tree-node{
+    color: #185acb !important;
+    background-color: #e8f0fe;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-right:8px;
+  }
+  
+  /* .treeview :has(> span > .menu-trigger > .selected-tree-node) {
+    background-color: #e8f0fe;
+    /* color: #185acb; */
+    /* padding: 0px px; */
+    /* border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; */
+  /* } */ 
+  .header_title_docs h1 {
+      font-size: 30px;
+      color: #78b1e0;
+      margin-top: 20px;
+      margin-bottom: 10px;
+     margin-left: 10px;
+  }
+
+  .drag_drop_section .drop_area {
+    max-width: 600px;
+    width: 100%;
+    height: calc(100vh - 22rem) !important;
+    margin: auto;
+    background: #e9f3fd;
+    border-color: #dfe1e5;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .drag_drop_section svg {
+    margin-top: 6.5rem;
+  }
+  .file_submit_section {
+    max-width: 600px;
+    margin: 15px auto 10px auto;
+    text-align: center;
+  }
+  .file_submit_section .btn,.file_submit_section .btn:hover{
+    padding: 6px 25px;
+    background: #76c690;
+    border-color: #76c690;
+  }
+  .main_breadcrumb{ 
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #ffff;
+  padding: 10px 20px;
+  }
+  aside.sidebar{
+    overflow: hidden;
+  }
+  #dropdown-basic-button {
+    background: transparent;
+    color: #0d6efd;
+  }
+  #dropdown-basic-button:hover {
+    background: #0d6efd;
+    color: #fff;
+  }
+  .drag_drop_section .loader {
+    position: absolute;
+    border: none;
+    background: transparent;
+    animation: none;
+    width: auto;
+    margin-left: 0;
+    margin-top: 0;
+    height: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+  .loader {
+    border: none !important;
+    background: transparent !important;
+      animation: none !important; 
+  }
+  .breadcrumb-item a {
+    color: #7ab3e1;
+    text-decoration: none;
+  }
+  .drag_drop_section {
+    position: relative;
+}
+
+  @media only screen and (min-width: 768px) {
+    .loader {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background:rgba(219,219,219,255/20%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+      top:0px;
+      left:0px;
+    }
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .loader {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background:rgba(219,219,219,255/20%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+      top:0px;
+      left:0px;
+    }
+  }
+  .right-pannel {
+    width: calc(100% - 200px);
+}
+
+
+/* .nav_pannel{
+  height: 100vh;
+  overflow: auto;
+}
+.nav_pannel::-webkit-scrollbar-track
+  {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+  }
+  
+  .nav_pannel::-webkit-scrollbar
+  {
+      width: 5px;
+      background-color: #F5F5F5;
+  }
+  
+  .nav_pannel::-webkit-scrollbar
+  ::-webkit-scrollbar-thumb
+  {
+      background-color: #000000;
+  }
+  
+   */
+
+   .main_breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+}
+
+.preview-bar-left{
+  float:right;
+  }
+
+  .preview-bar-left:first-child, .preview-bar-left:nth-child(n) , .preview-icons{
+    display: none;
+  }
+  
+  .preview-bar-left button, .preview-icons button {
+    background: #d9e1ff;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  .preview-bar-left button:hover, .preview-icons button:hover { background: #d9e1ff; }
+  
+  .preview-icons {
+    margin: 10px auto;
+    text-align: center;
+  }
+  .preview-bar-left button:hover, .preview-icons button:hover{
+    padding: 4px;
+    background: #fff;
+    border: 1px solid #1c2972;
+    box-shadow: 0 0 4px #4e96f5;
+  }
+
+  .react-pdf__Page__canvas{
+    position: static !important;
+  }
+
+.photo-viewer-container, 
+.photo-viewer-container img {
+height:100% !important;
+width:100% !important;
+}

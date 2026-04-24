@@ -1,0 +1,67 @@
+.l-box{
+    display: inline;
+}
+
+.Legend .Legend-item {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.Legend-colorBox {
+  width: 1.5rem;
+  height: 0.5rem;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.l-red {
+  background: #ff0000;
+}
+.l-green {
+  background: #198754;
+}
+.l-org {
+  background: #faaf19;
+}
+.l-black {
+  background: #4641da ;
+}
+.l-brown {
+  background: #3d0505;
+}
+/* .l-black {
+  background: #000000;
+} */
+.sub-hd-td th {
+    border: none;
+    line-height: 0;
+    padding-top: 15px ​!important;
+}
+
+.history_leaves_pending{
+    font-size: 12px;
+    color: white;
+    padding: 0 10px;
+    background-color: #75c690;
+}
+
+.employee_table_leave_history .fa {
+  font-size: 20px;
+}
+
+td.action_lh {
+  padding: 2px !important;
+}
+td.action_lh div:last-child {
+  margin-left: 3px;
+}
+
+td.action_lh div.cancel{
+  background: #ffeded;
+}
+
+td.action_lh div {
+  background: #ebf8fb;
+}

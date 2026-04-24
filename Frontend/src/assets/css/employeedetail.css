@@ -1,0 +1,32 @@
+
+.employee_details_data {
+    height: 100%;
+  }
+  .employee_details_data .nav {
+    height: 100% !important;
+    background: #eaf5ff;
+    padding: 0;
+  }
+  .employee_details_data .nav .nav-link {
+    background: transparent !important;
+    text-align: left;
+    border-radius: 0;
+    border-bottom: 1px solid #b2e8ff;
+    width: 100%;
+    padding: 15px;
+    color: #777;
+    font-size: 18px;
+  }
+  .employee_details_data .nav .nav-link.active {
+    color: #fab018;
+    font-weight: 600;
+    border-color: #faaf15;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .employee_details_data .nav {
+      height: auto !important;
+      margin-bottom: 20px;
+      padding: 0;
+  }
+  }
